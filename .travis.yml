@@ -1,13 +1,11 @@
 matrix:
   include:
-    - language: rust
-      rust:
-        - 1.0.0
-        - nightly
+  sudo: false
+  - language: rust
       script:
-        - cargo build --verbose
-        - cargo test --verbose
-    - language: verilog
+        - rustc code/_init_rust.rs
+        - ./_init_rust
+  - language: verilog
       install:
         - sudo apt-get install -y iverilog
       script:
@@ -16,4 +14,4 @@ matrix:
       install:
         - sudo apt-get install golang-go
       script:
-        - go run main.go
+        - go run __initgo__.go
