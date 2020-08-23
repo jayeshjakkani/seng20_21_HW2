@@ -1,6 +1,5 @@
 matrix:
   include:
-  sudo: false
   - language: rust
       script:
         - rustc code/_init_rust.rs
