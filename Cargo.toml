@@ -1,7 +1,7 @@
 [package]
 
 name = "SE21-HW2"
-version = "1.0"
+version = "1.0.0"
 authors = ["Ashish Sadanand Rajpurohit, Katta Rishabh"]
 
 [dependencies]
