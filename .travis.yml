@@ -12,7 +12,7 @@ matrix:
         - iverilog code/__initVerilog__.v
     - language: go
       install:
-        - sudo apt-get install golang-go
+        - sudo apt install golang-go
       script:
         - go build code/main.go
         - go run code/main.go
