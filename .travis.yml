@@ -7,3 +7,8 @@ matrix:
       script:
         - cargo build --verbose --all
         - cargo test --verbose --all
+    - language: verilog
+      install:
+        - sudo apt-get install -y iverilog
+      script:
+        - iverilog code/__initVerilog__.v
