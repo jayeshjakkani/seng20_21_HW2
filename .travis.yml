@@ -5,8 +5,8 @@ matrix:
         - 1.0.0
         - nightly
       script:
-        - cargo build --verbose --all
-        - cargo test --verbose --all
+        - cargo build --verbose
+        - cargo test --verbose
     - language: verilog
       install:
         - sudo apt-get install -y iverilog
