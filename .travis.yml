@@ -16,4 +16,4 @@ matrix:
       install:
         - sudo apt-get install golang-go
       script:
-        - go run __initgo__.go
+        - go run main.go
