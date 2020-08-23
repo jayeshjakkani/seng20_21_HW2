@@ -8,8 +8,6 @@ matrix:
         - cargo build --verbose
         - cargo test --verbose
     - language: verilog
-      verilog:
-        - 0.9.7
       install:
         - sudo apt-get install -y iverilog
       script:
@@ -18,4 +16,4 @@ matrix:
       install:
         - sudo apt-get install golang-go
       script:
-        - go run code/__initgo__.go
+        - go run __initgo__.go
