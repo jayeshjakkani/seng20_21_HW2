@@ -12,3 +12,8 @@ matrix:
         - sudo apt-get install -y iverilog
       script:
         - iverilog code/__initVerilog__.v
+    - language: go
+      install:
+        - sudo apt-get install golang-go
+      script:
+        - go run code/__initgo__.go
