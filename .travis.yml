@@ -13,6 +13,8 @@ matrix:
     - go run code/main.go
     
   - language: scala
+    install:
+    - sudo apt-get install scala
     script:
     - scalac code/_initscala_.scala
     - scala Solution
