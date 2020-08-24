@@ -21,7 +21,7 @@ Here, each generation a cell C is alive or dead. So, in the next generation, eac
 1) Open the Online Code Editor<br />
    Rust  : https://play.rust-lang.org/ <br />
    Scala : https://scastie.scala-lang.org/  <br />
-      Tips: Use code from seng20_21_HW2/code/Solution.scala directory<br />
+         Tips: Use code from seng20_21_HW2/code/Solution.scala directory<br />
    Go    : https://play.golang.org/  <br />
 2) Copy paste the Code in the editor.<br />
 3) Run the code to get the matrix of next generation and compare it with the expected output present in the comments.<br />
