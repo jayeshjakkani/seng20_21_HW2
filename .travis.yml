@@ -15,6 +15,7 @@ matrix:
   - language: scala
     install:
     - sudo apt-get install scala
+    - sudo apt-get install default-jdk
     script:
     - scalac code/_initscala_.scala
     - scala Solution
