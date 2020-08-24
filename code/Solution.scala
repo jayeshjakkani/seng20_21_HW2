@@ -2,16 +2,6 @@ import scala.annotation.tailrec
 import scala.collection.immutable.Queue
 import scala.util.Try
 
-/*
- * https://leetcode.com/problems/game-of-life/
- *
- * Basically it's a classic BFS, with some more wrangling of data to do it in place
- * You need to define some special ints which indicate the previous value and the value
- * which the cell will become. Then at the end you mutate these to be the their updated
- * value
- *
- */
-
 object Solution {
 
   case class Cell(row: Int, column: Int)
@@ -31,7 +21,7 @@ object Solution {
     val neighbors = getNeighbors(board, cell).toList.map(each => board(each.row)(each.column))
     val countOnes = neighbors.count(each => Values.isOne(each))
 
-    if(countOnes < 2 && boardCell == 1) {
+    if(countOnes <= 2 && boardCell == 1) {
       board(cell.row)(cell.column) = Values.ONE_TO_ZERO
     } else if(countOnes > 3 && boardCell == 1) {
       board(cell.row)(cell.column) = Values.ONE_TO_ZERO
@@ -150,7 +140,7 @@ object Solution {
  * [
   [0,0,0],
   [1,0,1],
-  [0,1,1],
+  [0,1,0],
   [0,1,0]
 ] 
 */
