@@ -1,7 +1,6 @@
 matrix:
   include:
-  - language: 
-    rust
+  - language: rust
     script:
     - rustc code/_init_rust.rs
     - ./_init_rust
