@@ -18,7 +18,12 @@ Here, each generation a cell C is alive or dead. So, in the next generation, eac
 
 
 # Steps to execute the Code<br />
-
+1) Open the Online Code Editor<br />
+   Rust  : https://play.rust-lang.org/ <br />
+   Scala :
+   Go    :
+2) Copy paste the Code in the editor.<br />
+3) Run the code to get the matrix of next generation and compare it with the expected output present in the comments.<br />
 
 
 # MEMBERS<br />
