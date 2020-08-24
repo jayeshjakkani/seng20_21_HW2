@@ -3,8 +3,8 @@
 [![Build Status](https://travis-ci.org/jayeshjakkani/seng20_21_HW2.svg?branch=master)](https://travis-ci.org/jayeshjakkani/seng20_21_HW2)
 
 # MEMBERs
-Ashish Rajpurohit
-Jayesh Jakkani
+#Ashish Rajpurohit
+#Jayesh Jakkani
 Katta Rishab
 Keertikumar Malagund
 Sathwik Kalvakuntla
