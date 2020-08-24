@@ -14,5 +14,5 @@ matrix:
     
   - language: scala
     script:
-    - scalac _initscala_.scala
+    - scalac code/_initscala_.scala
     - scala Solution
