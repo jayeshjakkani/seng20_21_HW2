@@ -60,7 +60,7 @@ object Solution {
         Cell(column + 1, row + 1)
       },
       Try {
-        board(cloumn - 1)(row + 1)
+        board(column - 1)(row + 1)
         Cell(column - 1, row + 1)
       },
       Try {
