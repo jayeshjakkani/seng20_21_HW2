@@ -3,8 +3,6 @@ import scala.collection.immutable.Queue
 import scala.util.Try
 
 /*
- * https://leetcode.com/problems/game-of-life/
- *
  * Basically it's a classic BFS, with some more wrangling of data to do it in place
  * You need to define some special ints which indicate the previous value and the value
  * which the cell will become. Then at the end you mutate these to be the their updated
