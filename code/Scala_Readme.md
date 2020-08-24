@@ -1,2 +1,1 @@
-Scala Version of Game of Life
-hello
+Scala Version of Game of Life</br>
