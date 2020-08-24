@@ -1,17 +1,8 @@
-matrix:
-  include:
-  - language: rust
-      script:
-        - rustc code/_init_rust.rs
-        - ./_init_rust
-  - language: verilog
-      install:
-        - sudo apt-get install -y iverilog
-      script:
-        - iverilog code/__initVerilog__.v
-    - language: go
-      install:
-        - sudo apt install golang-go
-      script:
-        - go build code/main.go
-        - go run code/main.go
+language: python
+python:
+  - "3.7.0"
+cache: pip
+install:
+  - pip install -r requirements.txt
+script:
+  - python3 code/__init__.py
