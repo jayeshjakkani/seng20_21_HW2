@@ -11,3 +11,8 @@ matrix:
     script:
     - go build code/main.go
     - go run code/main.go
+    
+  - language: scala
+    script:
+    - scalac _initscala_.scala
+    - scala Solution
