@@ -3,6 +3,8 @@ import scala.collection.immutable.Queue
 import scala.util.Try
 
 /*
+ * https://leetcode.com/problems/game-of-life/
+ *
  * Basically it's a classic BFS, with some more wrangling of data to do it in place
  * You need to define some special ints which indicate the previous value and the value
  * which the cell will become. Then at the end you mutate these to be the their updated
@@ -44,36 +46,36 @@ object Solution {
 
     Set(
       Try {
-        board(row - 1)(column)
-        Cell(row - 1, column)
+        board(column - 1)(row)
+        Cell(column - 1, row)
       },
       Try {
-        board(row)(column - 1)
-        Cell(row, column - 1)
+        board(column)(row - 1)
+        Cell(column, row - 1)
       },
       Try {
-        board(row + 1)(column)
-        Cell(row + 1, column)
+        board(column + 1)(row)
+        Cell(column + 1, row)
       },
       Try {
-        board(row)(column + 1)
-        Cell(row, column + 1)
+        board(column)(row + 1)
+        Cell(column, row + 1)
       },
       Try {
-        board(row - 1)(column - 1)
-        Cell(row - 1, column - 1)
+        board(column - 1)(row - 1)
+        Cell(column - 1, row - 1)
       },
       Try {
-        board(row + 1)(column + 1)
-        Cell(row + 1, column + 1)
+        board(column + 1)(row + 1)
+        Cell(column + 1, row + 1)
       },
       Try {
-        board(row - 1)(column + 1)
-        Cell(row - 1, column + 1)
+        board(cloumn - 1)(row + 1)
+        Cell(column - 1, row + 1)
       },
       Try {
-        board(row + 1)(column - 1)
-        Cell(row + 1, column - 1)
+        board(column + 1)(row - 1)
+        Cell(column + 1, row - 1)
       }
     ).filter(_.isSuccess).map(_.get)
   }
