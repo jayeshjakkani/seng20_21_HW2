@@ -30,7 +30,7 @@ func gameOfLife(board [][]int)  {
             }
             
             switch {
-                case isAlive && (numAlive < 2 || numAlive > 3):
+                case isAlive && (numAlive < 1 || numAlive > 2):
                     board[i][j] = aliveToDead
                 case false == isAlive && 3 == numAlive:
                     board[i][j] = deadToAlive
