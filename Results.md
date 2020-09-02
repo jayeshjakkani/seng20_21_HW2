@@ -15,6 +15,8 @@ Materials
 
 Observations
 
+![alt text](https://github.com/jayeshjakkani/seng20_21_HW2/blob/master/images/bar-graph%20(1).png)
+
 Conclusions
 
 •	From the observations it is evident that most of the participants found the code in Scala harder to debug compared to Go and Rust.
