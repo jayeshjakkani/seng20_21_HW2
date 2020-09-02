@@ -33,6 +33,7 @@ Threats to Validity
 •	The bugs introduced in three of the codes were of different types and it is possible that a bug in a particular code is harder to debug than the bugs present in the remaining two codes. 
 •	Lack of pre-testing to make sure that the debugging of all three of the codes can be completed in under 30 minutes.
 •	Familiarity of the languages by few participants before-hand helped them debug the codes faster compared to other participants and comparing their observations to that of others might not be an effective way to draw the right conclusions.
+• The data collected is not sufficient enough to draw strong conclusions.
 
 
 
