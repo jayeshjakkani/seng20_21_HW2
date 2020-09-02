@@ -20,6 +20,8 @@ The following three graphs show how many of the participants were able to find t
 ![alt text](https://github.com/jayeshjakkani/seng20_21_HW2/blob/master/images/rust.png)
 ![alt text](https://github.com/jayeshjakkani/seng20_21_HW2/blob/master/images/scala.png)
 
+
+
 The bar graph shows how much time each participant spent on trying to debug each of the codes.
 ![alt text](https://github.com/jayeshjakkani/seng20_21_HW2/blob/master/images/bar-graph%20(1).png)
 
