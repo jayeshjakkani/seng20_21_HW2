@@ -1,6 +1,6 @@
 # Results<br />
 
-# Methods<br />
+## Methods<br />
 
 •	The Game of Life code was implemented in the three programming languages. (Rust, Go and Scala). <br />
 •	Bugs were introduced in these three codes so that the participants can try to debug the codes in a limited amount of time. The steps to do the testing were mentioned in the Readme.md in our Github repository.<br />
@@ -13,7 +13,7 @@
 •	Google sheet<br />
 
 
-# Observations<br />
+## Observations<br />
 
 ![alt text](https://github.com/jayeshjakkani/seng20_21_HW2/blob/master/images/go.png)
 ![alt text](https://github.com/jayeshjakkani/seng20_21_HW2/blob/master/images/rust.png)
@@ -22,13 +22,13 @@
 ![alt text](https://github.com/jayeshjakkani/seng20_21_HW2/blob/master/images/pie-chart.png)
 
 
-# Conclusions<br />
+## Conclusions<br />
 
 •	From the observations it is evident that most of the participants found the code in Scala harder to debug compared to Go and Rust.<br />
 •	Most of the participants found bugs present in the Go and Rust codes for the Game of Life and were unable to find the bugs in Scala.<br />
 •	Most of the participants completed the testing around 25-40 minutes.<br />
 
-# Threats to Validity <br />	
+## Threats to Validity <br />	
 
 •	The bugs introduced in three of the codes were of different types and it is possible that a bug in a particular code is harder to debug than the bugs present in the remaining two codes. <br />
 •	Lack of pre-testing to make sure that the debugging of all three of the codes can be completed in under 30 minutes.<br />
