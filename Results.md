@@ -7,13 +7,13 @@
 •	A google sheet is created for the participants to enroll with their names and the preferred time slots for testing.<br />
 •	We used Google sheets to collect the data of the participants and their observations after they performed the experiment.<br />
 
-# Materials<br />
+## Materials<br />
 
 •	Online compiler links were provided to the participants for the easy testing of our codes.<br />
 •	Google sheet<br />
 
 
-Observations
+# Observations<br />
 
 ![alt text](https://github.com/jayeshjakkani/seng20_21_HW2/blob/master/images/go.png)
 ![alt text](https://github.com/jayeshjakkani/seng20_21_HW2/blob/master/images/rust.png)
