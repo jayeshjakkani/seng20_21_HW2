@@ -32,7 +32,7 @@ Here, each generation a cell C is alive or dead. So, in the next generation, eac
 
 # MEMBERS<br />
 Ashish Rajpurohit<br />
-Jayesh Jakkani<br />
+Jayesh C Jakkani<br />
 Katta Rishabh<br />
 Keertikumar Malagund<br />
 Sathwik Kalvakuntla<br />
